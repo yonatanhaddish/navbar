@@ -65,3 +65,11 @@ a:hover {
 .name-model:hover {
     color:  rgb(56, 120, 56);
 }
+
+
+/* to try media query next time I got time */
+/* @media screen and (max-width: 580px) {
+    button:hover {
+        background-color: rgb(107, 23, 163);
+    }
+} */
