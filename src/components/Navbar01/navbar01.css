@@ -1,0 +1,46 @@
+.navbar01 {
+    /* color: red; */
+    height: 80px;
+    /* display: flex; */
+    justify-content: center;
+    font-size: 1.2rem;
+    background: lightgrey;
+
+}
+
+.navbar-container {
+    /* border: 1px solid green; */
+    /* background-color: palevioletred;
+    /* display: flex; */
+    /* height: 80px; */
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+.navbar-logo {
+    /* color: blue; */
+    border: solid 1px goldenrod;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.narbar-menu {
+    /* color: pink; */
+}
+
+.list-items {
+    /* border: 2px solid greenyellow; */
+    list-style: none;
+    /* color: red; */
+}
+
+
+button {
+    border: none;
+    background: lightgrey;
+    list-style: none;
+}
