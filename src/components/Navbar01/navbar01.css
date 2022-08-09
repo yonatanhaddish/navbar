@@ -1,6 +1,7 @@
 .navbar01 {
     /* color: red; */
     height: 80px;
+    width: 100%;
     /* display: flex; */
     justify-content: center;
     font-size: 1.2rem;
@@ -16,6 +17,7 @@
     /* flex-direction: column; */
     display: flex;
     justify-content: space-between;
+    width: 100%;
     /* justify-content: center; */
 }
 
@@ -33,9 +35,11 @@
 }
 
 .list-items {
-    /* border: 2px solid greenyellow; */
-    list-style: none;
-    /* color: red; */
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    
 }
 
 
@@ -43,4 +47,18 @@ button {
     border: none;
     background: lightgrey;
     list-style: none;
+    cursor: pointer;
+    padding-right: 30px;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
 }
