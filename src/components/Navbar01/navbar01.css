@@ -2,19 +2,11 @@
     /* color: red; */
     height: 80px;
     width: 100%;
-    /* display: flex; */
-    justify-content: center;
-    font-size: 1.2rem;
     background: lightgrey;
 
 }
 
 .navbar-container {
-    /* border: 1px solid green; */
-    /* background-color: palevioletred;
-    /* display: flex; */
-    /* height: 80px; */
-    /* flex-direction: column; */
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -23,7 +15,7 @@
 
 .navbar-logo {
     /* color: blue; */
-    border: solid 1px goldenrod;
+    /* border: solid 1px goldenrod; */
     margin-left: 40px;
     margin-top: 15px;
     font-size: 1.8rem;
@@ -48,17 +40,24 @@ button {
     background: lightgrey;
     list-style: none;
     cursor: pointer;
-    padding-right: 30px;
-    font-size: 1.2rem;
-    background-color: white;
+    font-size: 1.1rem;
+    /* background-color: white; */
     border-radius: 10px;
     width: 100%;
     height: 30px;
     margin: 10px;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(56, 120, 56);
 }
 
 a {
     text-decoration: none;
     color: black;
-    margin-left: 20px;
+}
+
+a:hover {
+    color: #fff;
 }
